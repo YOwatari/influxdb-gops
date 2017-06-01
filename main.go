@@ -56,7 +56,7 @@ var (
 		"heap-idle":     Metric{Type: []byte{}, Name: "go_memstats_heap_idle_bytes", FieldsKey: "gauge"},
 		"heap-in-use":   Metric{Type: []byte{}, Name: "go_memstats_heap_inuse_bytes", FieldsKey: "gauge"},
 		"heap-released": Metric{Type: []byte{}, Name: "go_memstats_heap_released_bytes", FieldsKey: "gauge"},
-		"heap-objects":  Metric{Type: int(0), Name: "go_memstats_objects", FieldsKey: "gauge"},
+		"heap-objects":  Metric{Type: int(0), Name: "go_memstats_heap_objects", FieldsKey: "gauge"},
 		"stack-in-use":  Metric{Type: []byte{}, Name: "go_memstats_stack_inuse_bytes", FieldsKey: "gauge"},
 		"stack-sys":     Metric{Type: []byte{}, Name: "go_memstats_stack_sys_bytes", FieldsKey: "gauge"},
 		"gc-pause":      Metric{Type: time.Duration(0), Name: "go_gc_duration_seconds", FieldsKey: "sum"},
